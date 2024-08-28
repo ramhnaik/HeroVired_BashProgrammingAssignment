@@ -19,7 +19,20 @@ Write a script that creates the following directory structure:
        ├── documents/
 
        └── downloads/
-[Solution]()
+## [Solution](create_directory_structure.sh)
+
+### To Execute Script:
+
+Make the script executable by running: 
+~~~
+chmod +x create_directory_structure.sh
+~~~
+Run the script: 
+~~~
+./create_directory_structure.sh
+~~~
+
+Directory structure will be created under /home/user/ .
 
 
 ## 2. File Backup:
