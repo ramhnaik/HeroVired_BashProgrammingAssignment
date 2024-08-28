@@ -7,7 +7,7 @@ THRESHOLD=80
 USAGE=$(df / | grep / | awk '{ print $5 }' | sed 's/%//g')
 
 # Define the email address of the system administrator
-ADMIN_EMAIL="admin@example.com"
+ADMIN_EMAIL="ramhnaik@gmail.com"
 
 # Check if the disk usage is above the threshold
 if [ "$USAGE" -gt "$THRESHOLD" ]; then
